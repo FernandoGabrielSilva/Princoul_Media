@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:wght@500&display=swap');
+
+::-webkit-scrollbar-thumb {
+   background-color: var(--color1);
+   border-radius: 20px;
+}
+
+* {
+   margin: 0;
+   padding: 0;
+}
+
+:root {
+    --color1: #F3720A;
+
+    --font-impacto: 'Rubik', sans-serif;
+    --font-voll: 'Vollkorn', serif;
+    --font-padrao: Arial, Verdana, Helvetica, sans-serif;
+}
+
+nav {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+}
+
+nav button {
+    border-radius: 50%;
+    padding: 5px;
+    margin: 15px 0 0 15px;
+    height: 100%;
+    background-color: black;
+
+}
+
+nav button img {
+    height: 100%;
+}
+
+main {
+   margin: auto;
+   color: #fff;
+   font-family: var(--font-voll);
+   max-width: 750px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 10px;
+}
+
+.icon {
+    width: 150px;
+    border-radius: 50%;
+    border: var(--color1) 1px solid;
+}
+
+.icon_i {
+    width: 40px;
+    border-radius: 50%;
+}
+.button {
+    padding: 15px 50px;
+    background-color: black;
+    border-radius: 10px;
+    border: gray 1px solid;
+    box-shadow: gray 2px 5px 5px 0px;
+    text-decoration: none;
+    color: white;
+}
