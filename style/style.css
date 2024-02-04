@@ -13,6 +13,7 @@
 
 :root {
     --color1: #F3720A;
+    --color2: #ffff;
 
     --font-impacto: 'Rubik', sans-serif;
     --font-voll: 'Vollkorn', serif;
@@ -57,7 +58,7 @@ main {
 .icon {
     width: 150px;
     border-radius: 50%;
-    border: var(--color1) 1px solid;
+    border: var(--color2) 1px solid;
 }
 
 .icon_i {
